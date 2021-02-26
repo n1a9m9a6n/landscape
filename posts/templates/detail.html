@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block head_content %}
+<title>{{ post.title }} | Landscape</title>
+{% endblock %}
+
+{% block container %}
+
+<div class="container">
+    <div class="row">
+        {% include 'post_card.html' %}
+    </div>
+</div>
+
+{% endblock %}
